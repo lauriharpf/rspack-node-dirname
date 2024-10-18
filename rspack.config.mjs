@@ -18,6 +18,9 @@ const config = {
   entry: {
     main: "./src/index",
   },
+  node: {
+    __dirname: true,
+  },
   plugins: [new HtmlWebpackPlugin()],
   output: {
     clean: true,
