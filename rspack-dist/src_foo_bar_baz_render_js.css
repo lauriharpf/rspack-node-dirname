@@ -1,0 +1,10 @@
+/* #region "./src/foo/bar/baz/render.css" */
+/*
+- type: css/auto
+*/
+.text {
+    color: blue;
+}
+/* #endregion "./src/foo/bar/baz/render.css" */
+
+head{--webpack-rspack-repro-src_foo_bar_baz_render_js:&\.\/src\/foo\/bar\/baz\/render\.css;}
